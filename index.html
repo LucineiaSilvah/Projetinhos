@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Jokenpô</title>
+</head>
+<body>
+    <header>
+        <h1>Jokenpô</h1>
+    </header>
+    <main>
+        <h3>Jogador:</h3>
+        <form name="form">
+   <div class="opcoes"><input type="radio" name="grupo" id="pedra" >  <img src="pedra.png" alt=""><br>
+   <input type="radio" name="grupo" id="papel">   <img src="papel.png" alt=""><br>
+   <input type="radio" name="grupo" id="tesoura">     <img src="tesoura.png" alt=""></div>
+   
+      <div class="botoes"><input type="button" value="jogar" onclick="jogar()" class="btn">  
+      <input type="reset" value="reset" onclick="resetar()" class="btn"> </div>
+       </form>
+       <hr>
+       <h3>Computador:</h3>
+       <img src="pc.png" alt="" id="pc">
+       <hr>
+       <h3 id="placar"></h3>
+    </main>
+    <script src="jokenpo.js"></script>
+    <footer>
+        <p>&copy;Developer : <span>
+     <a href="https://github.com/LucineiaSilvah">Lucineia Silva</a>       </span></p>
+    </footer>
+  <div class="att"><p>Fonte da imagem:</p> <a href="https://pt.vecteezy.com/vetor-gratis/pedra-papel-tesoura">Pedra Papel Tesoura Vetores por Vecteezy</a>
+   <a href="https://pt.vecteezy.com/vetor-gratis/computador">Computador Vetores por Vecteezy</a>
+  <p>Aula de:</p> <a href="https://youtu.be/7yUfsz7BUW8">Professor jose de asis</a>
+   </div>
+</body>
+</html>
